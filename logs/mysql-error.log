@@ -1,0 +1,37 @@
+2020-01-18T00:25:58.387369+09:00 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-18T00:25:58.388474+09:00 0 [Note] mysqld (mysqld 5.7.28-log) starting as process 1 ...
+2020-01-18T00:25:58.394889+09:00 0 [Warning] InnoDB: Using innodb_file_format is deprecated and the parameter may be removed in future releases. See http://dev.mysql.com/doc/refman/5.7/en/innodb-file-format.html
+2020-01-18T00:25:58.395103+09:00 0 [Warning] InnoDB: Using innodb_file_format_max is deprecated and the parameter may be removed in future releases. See http://dev.mysql.com/doc/refman/5.7/en/innodb-file-format.html
+2020-01-18T00:25:58.395327+09:00 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-18T00:25:58.395514+09:00 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-18T00:25:58.395689+09:00 0 [Note] InnoDB: Uses event mutexes
+2020-01-18T00:25:58.395867+09:00 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-01-18T00:25:58.396044+09:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-18T00:25:58.396219+09:00 0 [Note] InnoDB: Using Linux native AIO
+2020-01-18T00:25:58.396581+09:00 0 [Note] InnoDB: Number of pools: 1
+2020-01-18T00:25:58.396861+09:00 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-18T00:25:58.398113+09:00 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-18T00:25:58.406398+09:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-18T00:25:58.408617+09:00 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-18T00:25:58.420975+09:00 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-18T00:25:58.432496+09:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-18T00:25:58.433120+09:00 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-18T00:25:58.459928+09:00 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-18T00:25:58.460860+09:00 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-18T00:25:58.461131+09:00 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-18T00:25:58.461910+09:00 0 [Note] InnoDB: 5.7.28 started; log sequence number 12471187
+2020-01-18T00:25:58.462277+09:00 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2020-01-18T00:25:58.462423+09:00 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-18T00:25:58.551932+09:00 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-18T00:25:58.552590+09:00 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-18T00:25:58.553718+09:00 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-18T00:25:58.554247+09:00 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-18T00:25:58.555115+09:00 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2020-01-18T00:25:58.555567+09:00 0 [Note] IPv6 is available.
+2020-01-18T00:25:58.556014+09:00 0 [Note]   - '::' resolves to '::';
+2020-01-18T00:25:58.556415+09:00 0 [Note] Server socket created on IP: '::'.
+2020-01-18T00:25:58.609449+09:00 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2020-01-18T00:25:58.609553+09:00 0 [Note] InnoDB: Buffer pool(s) load completed at 200118  0:25:58
+2020-01-18T00:25:58.873774+09:00 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-18T00:25:58.874446+09:00 0 [Note] mysqld: ready for connections.
+Version: '5.7.28-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
