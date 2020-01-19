@@ -10,7 +10,7 @@ class Comment extends Model
         'body',
     ];
 
-    public function post()
+    public function topic()
     {
         return $this->belongsTo('App\Topic');
     }

@@ -19,6 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::group(['middleware' => 'auth'], function() {
+    Route::resource('topics', 'TopicsController');
+    Route::resource('comments', 'CommentsController', ['only' => ['store']]);
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
